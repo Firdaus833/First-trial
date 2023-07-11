@@ -1,0 +1,564 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: rgb(250, 215, 215);
+    justify-content: space-around;
+    display: flex;
+    margin-top: 2px;
+    padding: 10px;
+    width: 100%;
+    
+  }
+  
+  nav ul {
+    width: fit-content;
+    list-style: none;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav ul li {
+    list-style: none;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-weight: bolder;
+  }
+  
+  nav img {
+    width: 90px;
+    height: auto;
+    margin-left: 20px;
+  }
+  
+  /* CSS code for general styles */
+  
+  /* Styles for mobile devices */
+  @media only screen and (max-width: 767px) {
+    nav {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav ul li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    nav img {
+      margin-left: 0;
+    }
+  }
+  
+  /* Styles for tablets and small desktop screens */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Add styles for tablets and small desktop screens */
+  }
+  
+  /* Styles for medium-sized desktop screens */
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* Add styles for medium-sized desktop screens */
+  }
+  
+  /* Styles for large desktop screens */
+  @media only screen and (min-width: 1200px) {
+    /* Add styles for large desktop screens */
+  }
+  
+.header-main {
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: 1000;
+    color: red;
+}
+
+nav img {
+    width: 90px;
+    height: 90px;
+    margin-left: 150px;
+}
+
+.slideshow-container img {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+div p {
+    margin: auto;
+    width: 500px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main {
+    text-align: center;
+    font-family: 'lato' sans-serif;
+}
+
+.main h1 {
+    color: #585050;
+    font-size: 40px;
+    font-weight: 400; /* Corrected */
+}
+
+.main h4 {
+    color: #4b4346;
+}
+
+.sub_main {
+    width: 600px;
+    margin: auto;
+}
+
+.sub_main ul {
+    display: flex;
+    text-decoration: none;
+}
+
+.sub_main img {
+    width: 300px;
+    display: flex;
+    cursor: pointer;
+    margin-right: 35px;
+    margin-top: 20px;
+    border: 2px dashed rgb(223, 78, 78);
+}
+
+.sub_main a {
+    text-decoration: none;
+    color: rgb(94, 88, 88);
+    font-weight: bolder;
+    text-transform: capitalize;
+    transition: 2s;
+}
+
+.main p {
+    color: #4b4346;
+    font-size: 20px;
+}
+
+a:hover {
+    cursor: pointer;
+    color: rgb(241, 47, 47);
+}
+
+.box {
+    background-color:rgb(250, 215, 215);
+    color: rgb(7, 7, 7);
+    margin-top: 200px;
+}
+
+.box ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box ul li {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.box span {
+    margin-right: 30px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-school {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.school-name {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.school-address {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.school-description {
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+
+.admission-head {
+    background-color:rgb(250, 215, 215);
+    color: #0a0a0a;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+form {
+    background-color:rgb(250, 215, 215);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.academics-info {
+    margin-top: 20px;
+    background-color:rgb(250, 215, 215);
+    padding: 15px;
+    border-radius: 5px;
+    color: #0a0a0a;
+}
+
+.academics-info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.academics-info p {
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.studentheader {
+    background-color:rgb(250, 215, 215);
+    color: #0e0d0d;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .studentmain {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .activity,
+  .facility {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .activity img,
+  .facility img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .activity h3,
+  .facility h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .activity p,
+  .facility p {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  .news header {
+    background-color: rgb(250, 215, 215);
+    color: #131212;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .news h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .news main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .news section {
+    margin-bottom: 30px;
+  }
+  
+  .news article {
+    margin-bottom: 30px;
+  }
+  
+  .news article img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .news article h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .news article p {
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-bottom: 10px;
+  }
+  
+  .news article a {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+  }
+    .donation {
+    background-color: rgb(250, 215, 215);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .donation-form h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .donation-form main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .donation-form section {
+    margin-bottom: 30px;
+  }
+  
+  .donation-form h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .donation-form form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .donation-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    font-size: 1rem;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #555;
+  }
+  .back-to-top-btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .back-to-top-btn.show {
+    display: block;
+  }
+  
+  /* Additional styling for button hover effect */
+  .back-to-top-btn:hover {
+    background-color: #555;
+  }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+/* CSS code for general styles */
+
+/* Styles for mobile devices */
+@media only screen and (max-width: 767px) {
+    nav img {
+      margin-left: 20px; /* Adjust the logo margin */
+    }
+    
+    .sub_main img {
+      width: 100%; /* Adjust the image width */
+      margin-right: 0; /* Remove the margin */
+    }
+  
+    .box ul li {
+      font-size: 24px; /* Decrease the font size */
+      margin-top: 20px;
+      margin-bottom: 20px; /* Adjust the margin */
+    }
+  
+    .about-school,
+    form,
+    .academics-info,
+    .facility,
+    article img {
+      width: 100%; /* Adjust the width */
+    }
+  
+    .studentheader h1,
+    .admission-head h1,
+    .news header h1,
+    .donation h1 {
+      font-size: 1.8rem; /* Decrease the font size */
+    }
+  
+    .main h1 {
+      font-size: 32px; /* Decrease the font size */
+    }
+  
+    div p,
+    .main p,
+    .academics-info p,
+    .activity p,
+    .facility p,
+    .news article p {
+      font-size: 16px; /* Decrease the font size */
+    }
+  
+    .donation-form h2 {
+      font-size: 1.5rem; /* Decrease the font size */
+    }
+  }
+  
+  /* Styles for tablets and small desktop screens */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Add styles for tablets and small desktop screens */
+  }
+  
+  /* Styles for medium-sized desktop screens */
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* Add styles for medium-sized desktop screens */
+  }
+  
+  /* Styles for large desktop screens */
+  @media only screen and (min-width: 1200px) {
+    /* Add styles for large desktop screens */
+  }
+  
