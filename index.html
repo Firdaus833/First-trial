@@ -3,37 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Presidential shopping center</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css ">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <nav>
-        <div class="logo">Presidential</div>
-        <ul>
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#about">About us</a></li>
-            <li><a href="#produts">Prducts</a></li>
-            <li><a href="#testi">Testimonials</a></li>
-            <li><a href="#cont">Contact</a></li>
-        </ul>
-    </nav>
-    <div class="content">
-        <div class="introduction">
-            <p>we offer you quality smart wacthes on the market</p>
-        </div>
-        <img src="ww.png" alt="">
-        
+    <section class="header">
+        <nav>
+           <a href="#"><h1>FriHack</h1></a>
+           <div class="nav-links" id="navLinks">
+            <i class='bx bx-x' onclick="hideMenu()"></i>  
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">DONATE</a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+           </div>  
+           <i class="bx bx-menu" onclick="showMenu()" ></i>
+        </nav>
+    <div class="text-box">
+        <h1>Firdaus Tiyumli</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ani </p>
+        <div class="social">
+        <i class='bx bxl-facebook'></i>
+        <i class='bx bxl-instagram'></i>
+        <i class='bx bxl-linkedin'></i>
+        <i class='bx bxl-twitter' ></i>
+    </div>
     </div>
 
-    <section>
-        <hi>
-            About us 
-        </hi>
-       <p>
-            My name is <h2>Chalepang, CHALIPEE</h2> for short, I am the CEO of presidential trades...
-        We deal in all kind of a smart wacths that goes inline with yur interest....
-       </p>
+
     </section>
+
+    <section class="about">
+        <div class="about-me">
+            <div class="image-container">
+            <img src="images\man4.png" alt="profile image">
+        </div>
+        <div class="graph-text">
+            
+                <h1>About Me</h1>
+                <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, quisquam alias. Sequi debitis quia natus, illo magni iste animi doloremque optio error, iusto ut et aperiam explicabo dicta quas ex.
+                Deleniti iste ducimus sunt ipsam rerum aperiam, dignissimos, pariatur, adipisci nisi numquam necessitatibus perferendis et beatae tempore! Quasi quae dignissimos, ipsam repellendus odio tenetur facere eveniet velit minima dolores quos.
+                Quisquam quod aperiam explicabo, cum soluta eligendi saepe hic est officia magnam, suscipit, omnis perferendis perspiciatis deleniti natus exercitationem ipsa praesentium expedita non sed iure nulla rem sequi! Vel, ipsa!
+                Corporis deleniti minus non mollitia quae natus, debitis repellat iusto repudiandae, asperiores recusandae facere expedita voluptate nam. Dignissimos odio deleniti nesciunt, voluptatem eum, expedita fuga id quis odit commodi praesentium.00
+            </p>
+            <table>
+                <td></td>
+                <tr>
+                <th scope="row">Name: </th>
+                <td></td>
+                <td>Tiyumli Firdaus</td>
+                </tr>
+                <tr>
+                <th scope="row">Age:</th>
+                <td></td>
+                <td>28</td>
+                </tr>
+                <th scope="row">Address:</th>
+                <td></td>
+                <td>cald@misth</td>
+                </tr>
+                <th scope="row">Phone Number:</th>
+                <td></td>
+                <td>+00-43-29-75</td>
+                </tr>       
+                <th scope="row">Email:</th>
+                <td></td>
+                <td>lazybones@gmail.com</td>
+                </tr>
+               </table>
+
+               <button class="btn">
+                Download CV
+            </button>
+    
+            </div>
+            
+        </div>
+        
+    </section>
+<section class="service">
+    <h1> MY SERVICE</h1>
+    <div class="row">
+        <div class="service-col">
+            <i class='bx bx-pencil'></i>
+            <h3>WEB DESIGN</h3>
+            <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit laboriosam perspiciatis, nemo facere molestiae provident esse possimus, eum 
+            </P>
+
+        </div>
+        <div class="service-col">
+            <i class='bx bxs-flag-alt'></i>
+            <h3>BRANDING</h3>
+            <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit laboriosam perspiciatis, nemo facere molestiae provident esse possimus, eum 
+            </P>
+
+        </div>
+        <div class="service-col">
+            <i class='bx bx-laptop'></i>
+            <h3>USER INTERFACE</h3>
+            <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit laboriosam perspiciatis, nemo facere molestiae provident esse possimus, eum 
+            </P>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- -----------javasScript------------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
     
 </body>
 </html>
